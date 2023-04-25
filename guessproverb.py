@@ -27,9 +27,9 @@ def proverb():
              "A dog is a man's best friend.", "Don't bite off more than you can chew."]  #have added few proverb u can add many as u like
 
     proverbChosen = random.choice(listP)  # random proverb generating
-    word_count = len(proverbChosen.split())
+    word_count = len(proverbChosen.split())  # counts the words present in proverb
 
-    print(proverbChosen)
+    print(proverbChosen) # do remove this line as it prints the proverb i kept this for checking purpose only 
 
     guesses = ''  # empty part that will store the guessed word
 
